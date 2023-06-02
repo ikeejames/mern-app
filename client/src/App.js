@@ -8,7 +8,7 @@ function App() {
   const [listOfFriends, setListOfFriends] = useState([]);
 
 
-  const BACKEND_URL = 'https://mern-backend-tzif.onrender.com'
+  const BACKEND_URL = 'https://mern-app-backend-eugi.onrender.com'
 
   const addFriend = () => {
     Axios
