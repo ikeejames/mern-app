@@ -1,0 +1,91 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.inputs {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gainsboro;
+}
+
+.inputs input {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin: 5px;
+  padding-left: 10px;
+}
+
+.inputs button {
+  border: none;
+  width: 150px;
+  height: 50px;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.inputs button:hover,
+.friends-box>.btns>button:hover {
+  cursor: pointer;
+  background-color: rgb(3, 94, 94);
+}
+
+.friendLists {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+}
+
+.friends-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 250px;
+  margin: 5px;
+}
+
+.friends-box>.btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+.friends-box>.btns>button {
+  border: none;
+  width: 110px;
+  height: 40px;
+  background-color: darkcyan;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 1px 10px;
+}
+
+.friends-details {
+  background-color: rgb(8, 141, 141);
+  color: whitesmoke;
+  width: 250px;
+  height: auto;
+  padding: 1px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  flex: 1;
+}
